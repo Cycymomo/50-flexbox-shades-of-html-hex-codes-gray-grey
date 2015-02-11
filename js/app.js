@@ -4,12 +4,16 @@
   var $mainContainer = document.getElementById('main-container'),
       COLOR_LIST = [
         {
-          "name": "",
-          "hexCode": "#fcfcfc"
+          "name": "White",
+          "hexCode": "#ffffff"
         },
         {
-          "name": "",
-          "hexCode": "#f4f4f4"
+          "name": "Snow",
+          "hexCode": "#fffafa"
+        },
+        {
+          "name": "White Smoke",
+          "hexCode": "#f5f5f5"
         },
         {
           "name": "",
@@ -24,15 +28,11 @@
           "hexCode": "#e4e4e4"
         },
         {
-          "name": "",
-          "hexCode": "#e0e0e0"
-        },
-        {
           "name": "Gainsboro",
           "hexCode": "#dcdcdc"
         },
         {
-          "name": "LightGrey",
+          "name": "LightGray",
           "hexCode": "#d3d3d3"
         },
         {
@@ -52,8 +52,8 @@
           "hexCode": "#c0c0c0"
         },
         {
-          "name": "",
-          "hexCode": "#bcbcbc"
+          "name": "Gray",
+          "hexCode": "#bebebe"
         },
         {
           "name": "",
@@ -100,7 +100,7 @@
           "hexCode": "#848484"
         },
         {
-          "name": "Gray",
+          "name": "Web Gray",
           "hexCode": "#808080"
         },
         {
