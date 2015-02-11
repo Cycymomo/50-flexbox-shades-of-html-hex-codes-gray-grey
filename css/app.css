@@ -1,0 +1,43 @@
+html {
+  color: #222;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+body {
+  background-color: #f4f7f8;
+  /*display: flex;
+  min-height: 100vh;*/
+}
+
+a {
+  color: #4183c4;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: #154B7F;
+}
+
+div#main-container {
+  display: flex;
+}
+
+div#main-container div {
+  flex: 1;
+}
+
+div#main-container div:hover {
+  flex: 2;
+}
