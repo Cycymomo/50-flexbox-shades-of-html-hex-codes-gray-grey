@@ -50,3 +50,8 @@ div#main-container div {
 div#main-container div:hover {
   font-size: 2rem;
 }
+
+footer {
+  font-size: 0.75rem;
+  text-align: center;
+}
