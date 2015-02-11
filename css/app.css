@@ -1,7 +1,16 @@
 html {
   color: #222;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  min-height: 100%
 }
 
 ::-moz-selection {
@@ -12,12 +21,6 @@ html {
 ::selection {
   background: #b3d4fc;
   text-shadow: none;
-}
-
-body {
-  background-color: #f4f7f8;
-  /*display: flex;
-  min-height: 100vh;*/
 }
 
 a {
@@ -32,12 +35,18 @@ a:visited {
 
 div#main-container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
 }
 
 div#main-container div {
-  flex: 1;
+  width: 25rem;
+  height: 10rem;
+  line-height: 10rem;
+  text-align: center;
 }
 
 div#main-container div:hover {
-  flex: 2;
+  font-size: 2rem;
 }
